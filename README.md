@@ -27,9 +27,9 @@ source: www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - Gradient Boosting Classifier
 
 # Application Process
-Firstly, base models were tried with the specified algorithms. 
-Than, undersampling methods were tried with models that have high recall, precision, f1 scores. 
-Threshold values were adjusted for more balanced recall, precision, f1 score results
-The undersampling methods that applied were compared
-The skewed features data was used with Random Forest Classifier algorithm and most important features identified
-Finally, a new random forest model was tried with the identified features that used with random undersampling method.
+- Firstly, base models were tried with the specified algorithms. 
+- Than, undersampling methods were tried with models that have high recall, precision, f1 scores. 
+- Threshold values were adjusted for more balanced recall, precision, f1 score results
+- The undersampling methods that applied were compared
+- The skewed features data was used with Random Forest Classifier algorithm and most important features identified
+- Finally, a new random forest model was tried with the identified features that used with random undersampling method.
